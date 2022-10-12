@@ -298,7 +298,7 @@ main
 
 rm -R /install
 rm /home/user/desk.sh
-rm /home/user/install_my-conf.sh
+rm -R /home/user/install_conf/
 rm /home/user/doppref.tar
 
 mv /home/user/trusted_sites.html /etc/opt/cprocsp/
