@@ -199,7 +199,8 @@ function instProg(){
     echo -e "$LYELLOW [ * ]  Устанавливаем обновления и программы" $RESTORE
     sleep 1
     apt update & apt install libreoffice libreoffice-kde5 libreoffice-help-ru libreoffice-l10n-ru obs-studio timeshift playonlinux libglade2-0 jbigkit-bin firefox-esr -y
-
+    sleep 1
+    apt install /install/Prog/Any/*.deb
 }
 
 
