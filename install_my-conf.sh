@@ -296,6 +296,7 @@ main(){
 main
 
 
+mv /install/vipnetclient-gui_ru_amd64_4.8.0-6347.deb /home/user/
 rm -R /install
 rm /home/user/desk.sh
 rm -R /home/user/install_conf/
