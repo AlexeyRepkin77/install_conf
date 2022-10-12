@@ -252,8 +252,7 @@ function csp(){
     echo -e "$LYELLOW [ * ]  Устанавливаем СКЗИ Крипто-Про 5.0.11455 $RED 'Fury'"$RESTORE
     sleep 1
     /install/Prog/CryptoPro/linux-amd64_deb/install_gui.sh
-    dpkg -i /install/Prog/CryptoPro/*.deb
-    /opt/cprocsp/sbin/amd64/cpconfig -license -set 4040E-60000-01X9R-4XFN0-887M0	
+    dpkg -i /install/Prog/CryptoPro/*.deb	
 }    
 
 
