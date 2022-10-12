@@ -295,6 +295,10 @@ main(){
 
 main
 
+#Пока не сделал функцию поверки установки ПО
+apt update 
+apt install libreoffice libreoffice-kde5 libreoffice-help-ru libreoffice-l10n-ru obs-studio timeshift playonlinux libglade2-0 jbigkit-bin firefox-esr -y
+
 
 mv /install/Prog/Any/*.deb /home/user/
 mv /install/vipnetclient-gui_ru_amd64_4.8.0-6347.deb /home/user/
